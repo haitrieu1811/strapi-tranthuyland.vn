@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "infos",
+  "info": {
+    "singularName": "info",
+    "pluralName": "infos",
+    "displayName": "Info"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hotline": {
+      "type": "string",
+      "regex": "^(?:\\+84|0)(?:3[2-9]|5[2689]|7[06-9]|8[1-6]|9[0-9])[0-9]{7}$"
+    },
+    "zalo": {
+      "type": "string",
+      "regex": "^(?:\\+84|0)(?:3[2-9]|5[2689]|7[06-9]|8[1-6]|9[0-9])[0-9]{7}$"
+    },
+    "projectName": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "socials": {
+      "type": "component",
+      "component": "components.social",
+      "repeatable": true
+    },
+    "phoneNumbers": {
+      "type": "component",
+      "component": "components.phone-number",
+      "repeatable": true
+    }
+  }
+}

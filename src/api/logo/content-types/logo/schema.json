@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "logos",
+  "info": {
+    "singularName": "logo",
+    "pluralName": "logos",
+    "displayName": "Logo"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lightLogo": {
+      "type": "component",
+      "component": "components.logo",
+      "repeatable": false
+    },
+    "darkLogo": {
+      "type": "component",
+      "component": "components.logo",
+      "repeatable": false
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_components_slogans",
+  "info": {
+    "displayName": "Slogan",
+    "icon": "crown"
+  },
+  "options": {},
+  "attributes": {
+    "normalText": {
+      "type": "string",
+      "required": true
+    },
+    "highlightText": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

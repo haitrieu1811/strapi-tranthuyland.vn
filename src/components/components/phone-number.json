@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_phone_numbers",
+  "info": {
+    "displayName": "phoneNumber",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "phoneNumber": {
+      "type": "string",
+      "required": true,
+      "regex": "^(?:\\+84|0)(?:3[2-9]|5[2689]|7[06-9]|8[1-6]|9[0-9])[0-9]{7}$"
+    },
+    "type": {
+      "type": "enumeration",
+      "required": true,
+      "enum": [
+        "hotline",
+        "mobile"
+      ]
+    }
+  },
+  "config": {}
+}

@@ -44,7 +44,7 @@
       "inversedBy": "products"
     },
     "price": {
-      "type": "integer",
+      "type": "biginteger",
       "required": true
     },
     "acreage": {

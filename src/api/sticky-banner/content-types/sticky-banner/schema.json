@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "sticky_banners",
+  "info": {
+    "singularName": "sticky-banner",
+    "pluralName": "sticky-banners",
+    "displayName": "Sticky Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "actionUrl": {
+      "type": "string",
+      "required": true
+    },
+    "actionName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

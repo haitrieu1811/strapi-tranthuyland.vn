@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_components_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "slogans": {
+      "type": "component",
+      "component": "components.slogan",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}
